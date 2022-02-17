@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hw1.h
+vector
+-
+
+/usr/src/app/src/hw1.cpp
+iostream
+-
+vector
+-
+random
+-
+iomanip
+-
+cmath
+-
+stdexcept
+-
+hw1.h
+/usr/src/app/src/hw1.h
+
+/usr/src/app/src/main.cpp
+iostream
+-
+gtest/gtest.h
+-
+hw1.h
+/usr/src/app/src/hw1.h
+
+/usr/src/app/src/unit_test.cpp
+gtest/gtest.h
+/usr/src/app/src/gtest/gtest.h
+gmock/gmock.h
+/usr/src/app/src/gmock/gmock.h
+hw1.h
+/usr/src/app/src/hw1.h
+
